@@ -1,0 +1,46 @@
+.btn-white {
+  @include button-variant(black, white, white);
+}
+.btn-outline-white {
+  @include button-outline-variant(white);
+  &:hover {
+    color: black;
+  }
+}
+.btn-pill {
+  border-radius: 10rem;
+}
+.btn-switch-on {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $btn-success-bg !important;
+    color: white !important;
+  }
+}
+.btn-switch-off {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $btn-danger-bg !important;
+    color: white !important;
+  }
+}
+.btn-outline-switch-on {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    @include button-outline-variant($btn-success-bg);
+  }
+}
+.btn-outline-switch-off {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    @include button-outline-variant($btn-danger-bg);
+  }
+}

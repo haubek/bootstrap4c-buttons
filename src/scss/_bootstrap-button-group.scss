@@ -1,0 +1,125 @@
+.btn-group-xs > .btn {
+  padding: ($btn-padding-y-sm / 2) ($btn-padding-x-sm - .25);
+  font-size: $font-size-xs;
+  line-height: ($line-height-sm - .25);
+  border-radius: $btn-border-radius-xs;
+}
+.btn-group-pill {
+  .btn {
+    &:first-child {
+      border-top-left-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+    }
+    &:last-child {
+      border-top-right-radius: 5rem;
+      border-bottom-right-radius: 5rem;
+    }
+  }
+}
+.btn-group-condensed {
+  .btn {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+}
+.btn-toolbar-xs {
+  height: 1.5rem;
+  margin: 0;
+  > .btn-group {
+    margin-right: .125rem;
+    margin-left: .125rem;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  &.btn-toolbar-offset {
+    margin-top: -1.5rem;
+  }
+}
+.btn-toolbar-sm {
+  height: 1.85rem;
+  margin: 0;
+  &.btn-toolbar-offset {
+    margin-top: -2rem;
+  }
+}
+.btn-toolbar-row {
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -.125rem;
+  margin-right: -.125rem;
+  @media (min-width: map-get($grid-breakpoints, xs)) {
+    .btn-group-xs-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+    .btn-group-xs-4 {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+    .btn-group-xs-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+    .btn-group-xs-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+  }
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    .btn-group-sm-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+    .btn-group-sm-4 {
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+      position: relative;
+      margin: 0;
+      padding-left: .125rem;
+      padding-right: .125rem;
+    }
+  }
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    .btn-group-md-reset {
+      flex: inherit;
+      max-width: inherit;
+      &.pull-xs-right {
+        margin-left: auto;
+      }
+    }
+  }
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    .btn-group-lg-reset {
+      flex: inherit;
+      max-width: inherit;
+      &.pull-xs-right {
+        margin-left: auto;
+      }
+    }
+  }
+}

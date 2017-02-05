@@ -1,2 +1,49 @@
-# bootstrap4c-buttons
-Bootstrap 4 Component - Buttons
+# Bootstrap4C
+
+### buttons
+
+The *buttons* is a simple Bootstrap 4 component that extend your default Bootstrap buttons classes. The component is 100% CSS, no JavaScript.
+
+See demo here => https://haubek.github.io
+
+### Bower install
+
+```
+bower install bootstrap4c-buttons
+```
+
+### CSS
+
+```
+<link href="path/to/component-buttons.css" rel="stylesheet">
+```
+
+### HTML5 markup
+
+```
+<button type="button" class="btn btn-primary btn-pill">I'm a pill button</button>
+<button type="button" class="btn btn-white">I'm a white button</button>
+<button type="button" class="btn btn-outline-white">I'm a white outline button</button>
+```
+
+```
+<div class="btn-group btn-group-pill" data-toggle="buttons">
+  <label class="btn btn-outline-secondary btn-switch-on active">
+    <input type="radio" name="options" id="on" autocomplete="off" checked> On
+  </label>
+  <label class="btn btn-outline-secondary btn-switch-off">
+    <input type="radio" name="options" id="off" autocomplete="off"> Off
+  </label>
+</div>
+```
+
+```
+<div class="btn-toolbar btn-toolbar-row" role="toolbar" aria-label="A11Y">
+  <div class="btn-group btn-group-xs-6 btn-group-md-reset" role="group" aria-label="A11Y">
+    <button type="button" class="btn btn-primary btn-block">Save</button>
+  </div>
+  <div class="btn-group btn-group-xs-6 btn-group-md-reset" role="group" aria-label="A11Y">
+    <button type="button" class="btn btn-secondary btn-block">Cancel</button>
+  </div>
+</div>
+```
