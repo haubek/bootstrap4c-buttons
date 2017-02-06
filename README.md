@@ -2,7 +2,7 @@
 
 ### buttons
 
-The *buttons* is a simple Bootstrap 4 component that extend your default Bootstrap buttons classes. The component is 100% CSS, no JavaScript.
+The *buttons* is a simple Bootstrap 4 component that extend your default Bootstrap buttons classes with a few usefull once. The component is 100% CSS, no JavaScript needed.
 
 See demo here => https://haubek.github.io
 

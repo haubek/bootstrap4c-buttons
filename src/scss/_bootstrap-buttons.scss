@@ -1,3 +1,9 @@
+.btn-xs {
+  padding: ($btn-padding-y-sm / 2) ($btn-padding-x-sm - .25);
+  font-size: $font-size-xs;
+  line-height: ($line-height-sm - .25);
+  border-radius: $btn-border-radius-xs;
+}
 .btn-white {
   @include button-variant(black, white, white);
 }
