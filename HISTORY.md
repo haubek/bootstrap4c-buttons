@@ -1,8 +1,12 @@
 # Release History
 
-## 1.0.2
+## 1.0.3
 
 * Added support for `btn-switch-pause`
+
+## 1.0.2
+
+* Tiny name change
 
 ## 1.0.1
 
