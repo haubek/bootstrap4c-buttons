@@ -25,6 +25,15 @@
     color: white !important;
   }
 }
+.btn-switch-pause {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $btn-warning-bg !important;
+    color: white !important;
+  }
+}
 .btn-switch-off {
   &.active,
   &:active,
@@ -40,6 +49,14 @@
   &:focus,
   &:hover {
     @include button-outline-variant($btn-success-bg);
+  }
+}
+.btn-outline-switch-pause {
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    @include button-outline-variant($btn-warning-bg);
   }
 }
 .btn-outline-switch-off {
