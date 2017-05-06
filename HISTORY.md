@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.4
+
+* Fixed error
+
 ## 1.0.3
 
 * Added support for `btn-switch-pause`
