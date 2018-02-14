@@ -1,5 +1,9 @@
 # Release History
 
+## 1.0.5
+
+* Upgraded to Bootstrap 4.0.0
+
 ## 1.0.4
 
 * Fixed error

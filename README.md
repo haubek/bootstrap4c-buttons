@@ -6,16 +6,16 @@ The *buttons* is a simple Bootstrap 4 component that extend your default Bootstr
 
 See demo here => https://haubek.github.io
 
-### Bower install
+### NPM install
 
 ```
-bower install bootstrap4c-buttons
+npm install bootstrap4c-buttons
 ```
 
 ### CSS
 
 ```
-<link href="path/to/component-buttons.css" rel="stylesheet">
+<link href="path/to/component-buttons.min.css" rel="stylesheet">
 ```
 
 ### HTML5 markup
@@ -27,7 +27,7 @@ bower install bootstrap4c-buttons
 ```
 
 ```
-<div class="btn-group btn-group-pill" data-toggle="buttons">
+<div class="btn-group btn-group-toggle btn-group-pill" data-toggle="buttons">
   <label class="btn btn-outline-secondary btn-switch-on active">
     <input type="radio" name="options" id="on" autocomplete="off" checked> On
   </label>

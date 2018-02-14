@@ -5,7 +5,7 @@
   border-radius: $btn-border-radius-xs;
 }
 .btn-white {
-  @include button-variant(black, white, white);
+  @include button-variant(white, white, #ccc);
 }
 .btn-outline-white {
   @include button-outline-variant(white);
