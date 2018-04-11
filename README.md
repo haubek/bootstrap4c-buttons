@@ -6,10 +6,10 @@ The *buttons* is a simple Bootstrap 4 component that extend your default Bootstr
 
 See demo here => https://haubek.github.io
 
-### NPM install
+### Yarn install
 
 ```
-npm install bootstrap4c-buttons
+yarn add bootstrap4c-buttons
 ```
 
 ### CSS
